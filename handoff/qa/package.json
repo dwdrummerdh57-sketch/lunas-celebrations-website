@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "description": "Optional handoff DOM regression checks; not a runtime dependency",
+  "scripts": {
+    "test": "node interaction.test.cjs && node brand.test.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.3"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

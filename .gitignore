@@ -1,0 +1,11 @@
+# Original editable application source is dist/; retain it in version control.
+node_modules/
+**/node_modules/
+build/
+*.log
+.env
+.env.*
+!.env.example
+.vscode/
+.DS_Store
+Thumbs.db

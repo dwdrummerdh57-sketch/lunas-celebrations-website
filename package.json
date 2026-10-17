@@ -1,0 +1,15 @@
+{
+  "name": "lunas-luxury-events-htx",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Actual approved vanilla website with added dependency-free handoff command shortcuts",
+  "scripts": {
+    "dev": "node handoff/serve.cjs dist 8000",
+    "start": "node handoff/serve.cjs dist 8000",
+    "build": "node handoff/build.cjs",
+    "preview": "node handoff/serve.cjs build 8001"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
